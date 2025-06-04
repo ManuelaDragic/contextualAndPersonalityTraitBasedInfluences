@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.uniulm.social_media_interventions">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />  #???
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InfiniteScroll"
+        android:usesCleartextTraffic="true"
+        >
+
+        <activity android:name="com.uniulm.social_media_interventions.EndNoteActivity"    android:exported="true" />
+
+        <activity
+            android:name="com.uniulm.social_media_interventions.WelcomeActivity"
+            android:label="InfiniteScape"
+            android:exported="true"
+            tools:node="merge"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uniulm.social_media_interventions.StartActivity"
+            android:label="InfiniteScape"
+            android:exported="true"   tools:node="merge"
+            />
+
+
+        <activity
+            android:name="com.uniulm.social_media_interventions.ScrolledActivity"
+            android:label="SocialMediaInterventions"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.AgeActivity"
+            android:label="SocialMediaInterventions"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.GenderActivity"
+            android:label="SocialMediaInterventions"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.SocialMediaActivity"
+            android:label="SocialMediaInterventions"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.UserGroupActivity"
+            android:label="SocialMediaInterventions"
+            android:exported="true"  tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.TimeSpendActivity"
+            android:label="SocialMediaInterventions"    android:exported="true"   tools:node="merge" />
+        <activity
+            android:name="com.uniulm.social_media_interventions.UsageReasonsActivity"
+            android:label="SocialMediaInterventions"    android:exported="true"    tools:node="merge"/>
+        <activity
+            android:name="com.uniulm.social_media_interventions.StuckSocialMediaActivity"
+            android:label="SocialMediaInterventions"    android:exported="true"   tools:node="merge" />
+        <activity
+            android:name="com.uniulm.social_media_interventions.ReachingEndActivity"
+            android:label="SocialMediaInterventions"    android:exported="true"   tools:node="merge" />
+        <activity
+            android:name="com.uniulm.social_media_interventions.AttentionCheckQuest"
+            android:label="SocialMediaInterventions"    android:exported="true"   tools:node="merge" />
+        <activity
+            android:name="com.uniulm.social_media_interventions.StuckOnPostsActivity"
+            android:label="SocialMediaInterventions"    android:exported="true"   tools:node="merge" />
+<!--
+        <activity
+            android:name="com.uniulm.social_media_interventions.UsageAccessPermissionActivity"
+            android:label="SocialMediaInterventions" />
+        <activity
+            android:name="com.uniulm.social_media_interventions.OverlayPermissionActivity"
+            android:label="SocialMediaInterventions" />
+        -->
+        <activity
+            android:name="com.uniulm.social_media_interventions.PermissionActivity"
+            android:label="InfiniteScape"
+            android:exported="true"   tools:node="merge"
+            >
+
+
+        </activity>
+
+        <activity
+            android:name="com.uniulm.social_media_interventions.MainActivity"
+            android:label="InfiniteScape"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.FeelingAfterLockActivity"
+            android:label="InfiniteScape"    android:exported="true"    tools:node="merge"/>
+        <activity
+            android:name="com.uniulm.social_media_interventions.rhsci_activity"
+            android:label="InfiniteScape"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.rhsci1_activity"
+            android:label="InfiniteScape"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.rhsci2_activity"
+            android:label="InfiniteScape"
+            android:exported="true"   tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.rhsci3_activity"
+            android:label="InfiniteScape"    android:exported="true"   tools:node="merge"/>
+        <activity
+            android:name="com.uniulm.social_media_interventions.rhsci4_activity"
+            android:label="InfiniteScape"    android:exported="true"   tools:node="merge"/>
+        <activity
+            android:name="com.uniulm.social_media_interventions.rhsci5_activity"
+            android:label="InfiniteScape"    android:exported="true"   tools:node="merge" />
+        <activity
+            android:name="com.uniulm.social_media_interventions.ToS_activity"
+            android:label="InfiniteScape"
+            android:exported="true"
+            tools:node="merge"
+            />
+        <activity
+            android:name="com.uniulm.social_media_interventions.ThankActivity"
+            android:label="InfiniteScape"    android:exported="true"   tools:node="merge"/>
+        <activity
+            android:name="com.uniulm.social_media_interventions.FinalQuestionnaire"
+            android:label="InfinteScape"
+            android:exported="true"
+            tools:node="merge"
+            />
+
+        <!--
+        <activity android:name=".BatteryPermissionActivity"
+            android:label="SocialMediaInterventions" />
+        <activity android:name=".AdditionalPermissionActivity"
+            android:label="SocialMediaInterventions" />
+-->
+
+
+        <!-- MANU -->
+        <service
+            android:name=".SpotOS"
+            android:exported="false" />
+
+
+        <service android:name="com.uniulm.social_media_interventions.AppCheckerService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="true"
+            tools:node="merge"
+            >
+
+        <intent-filter>
+            <action android:name="android.accessibilityservice.AccessibilityService" />
+        </intent-filter>
+           <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <service
+            android:name=".TimerService"
+            android:enabled="true"
+            android:exported="true"   tools:node="merge"
+        />
+        <receiver android:name=".RestartServiceReceiver"
+            android:exported="true"   tools:node="merge"
+            >
+            <intent-filter>
+                <action android:name="YouWillNeverKillMe" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.uniulm.social_media_interventions.MyAdminReceiver"
+            android:permission="android.permission.BIND_DEVICE_ADMIN"
+            android:exported="true"   tools:node="merge">
+            <meta-data
+                android:name="android.app.device.admin"
+                android:resource="@xml/admin"/>
+            <intent-filter>
+
+                <!-- This action is required -->
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+
+
+        </receiver>
+
+        <receiver
+            android:name="com.uniulm.social_media_interventions.NotificationReceiver"
+            android:enabled="true"
+            android:exported="true"   tools:node="merge">
+
+            <intent-filter>
+
+                <!-- This action is required -->
+                <action android:name="com.example.ACTION_CUSTOM" />
+            </intent-filter>
+
+
+        </receiver>
+    </application>
+
+</manifest>

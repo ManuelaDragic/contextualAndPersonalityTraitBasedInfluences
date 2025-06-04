@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">InfiniteScape</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">It is part of a scientific study we conduct at the University of Ulm in Germany.
+	Here we want to explore how users are influenced by different types of interventions, triggered random by using social media applications.
+	We want to compare different types of these interventions and ask the user a few questions afterwards.</string>
+    <string name="welcome2"> Please (scroll down and) press the button below to continue with the study.</string>
+    <string name="ua_permission">With this permission we will see when you open your social media applications and when they are closed. We <font color='#FF0000'>will not</font> be able to see what you do inside these applications. Nothing you do inside the application will be recorded.</string>
+    <string name="allow_ua">In the following week, our app will randomly disrupt your social media sessions with different types of interventions. The app, therefore, needs to know when a social media application has been closed and therefore find the right time to prompt a questionnaire. For that you have to <font color='#FF0000'>allow the \'Package Usage Stats\' permission</font> for this app.</string>
+    <string name="ov_permission">With this permission our app will be allowed to show content over other apps. Some interventions <font color='#FF0000'>will need</font> to be able to do so. Otherwise the app is going to crash and you <font color='#FF0000'>will not be able to finish the study</font> </string>
+    <string name="allow_ov">In the following week, our app will randomly disrupt your social media sessions with different types of interventions. Please <font color='#FF0000'>allow the \'Draw over other apps\' permission</font> for this app to continue with the study.</string>
+    <string name="title_activity_attention_check_sess">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fourth_sess_quest">ScrollingActivity</string>
+    <string name="agree_terms">Please (scroll down and) press the button below to continue with the study. With pressing this button, you confirm that you are registered with our study "Study on Social Media Usage on Android Smartphones" and have previously agreed to its terms of service. If you are not, please leave the application now.</string>
+    <string name="rshci1">I want to be in control, not the intervention</string>
+    <string name="rshci2">I like to act independently from the intervention</string>
+    <string name="rshci3">I don’t want the intervention to tell me what to do</string>
+    <string name="rshci4">I don’t let the intervention impose its will on me</string>
+    <string name="rshci5">I alone determine what I do, not the intervention</string>
+
+    <string name="sense_of_agency">For this intervention, how much did you feel out of or in control?</string>
+    <string name="satisfaction">For this intervention, how much did you feel dissatisfied or satisfied?</string>
+    <string name="goal_alignment">For this intervention, how much did it conflict with or support your personal goals?</string>
+    <string name="useful_in_situation">I ﬁnd the intervention to be useful in my current situation</string>
+
+
+    <string name="tos">By checking the box below you confirm that you agree to the <u>terms of service</u> of this study.</string>
+    <string name="uanew">The <b>Usage Stats</b> will track when you open your social media applications and when you close them. We will not be able to see what you do inside these applications. Nothing you do inside the application will be recorded.</string>
+    <string name="ovnew">The <b>Draw over other apps</b>will allow to show content over other apps. Some interventions will need to be able to do so. Otherwise the app is going to crash and you will not be able to finish the study.</string>
+    <string name="pid">Your Personal ID is created as follows:\n1. First Letter of your Mothers First Name \n2. Number of the month of your birthday <i>(January = 1, ..., December = 12)</i>\n3. Second Letter of your surname \n4. First Letter of the town you live in.</string>
+    <string name="emo">Select your current emotion</string>
+    <string name="batnew">The <b>Battery Optimization</b> will shutdown our application on certain devices. Therefore it is necessary, that you set our app as an exception.</string>
+    <string name="devices">-Xiaomi \n -Oppo \n -ASUS \n -VIVO \n -Nokia </string>
+    <string name="add1">On certain devices of the following manufacturers with custom android installations, an external app is by default not allowed to start dialogs out of the background. </string>
+    <string name="add2">If you own a <b>smartphone</b> of the following manufacturers, please check whether the <b>Auto-Start</b>-Setting is Enabled.</string>
+    <string name="privacy_policy">
+<b>Privacy Policy for the Collection of Personal Data for Academic and Industrial Research Purposes</b>\n\n
+<b>1. Name and Contact Details of the Person Responsible for the Data Processing is:</b>\n\n
+<u>Luca-Maxim Meinhardt</u>\n
+<a href="mailto:luca.meinhardt@uni-ulm.de">luca.meinhardt@uni-ulm.de</a>\n
+Tel: +49(0)731 / 50-31323\n
+Universität Ulm\n
+Faculty of Engineering, Computer Science and Psychology\n
+Institute for Media Informatics\n
+James-Franck-Ring\n
+89081 Ulm, Germany\n\n
+<b>2. Purposes and Legal Bases of the Processing:</b>\n
+<b>2.(a) The Purpose of Processing Your Data Will Be:</b>\n
+~ to work on scientific questions regarding interventions for infinite scrolling\n
+~ to write scientific publications based on the findings of the processing of the data.\n
+<b>2.(b) Legal Basis of Processing</b>\n
+Your data on the basis of Section 4 of the Federal Data Protection Act (Landesdatenschutzgesetz, LDSG) in connection with point e of Article 6 (1) of the GDPR and points b and c of Article 6 (1) of the GDPR.\n\n
+<b>3. Recipients or Categories of Recipients of Personal Data:</b>\n
+Your data responses (including gender and age) will be processed for research and development purposes by the Ulm University. No further identification will be required.\n\n
+<b>4. Rights of Persons Affected:</b>\n
+According to the General Data Protection Regulation, you have the following rights when providing personal data:\n
+~ the purpose of this data collection shall be made clear to you\n
+~ the identity of the researcher and their contact details are made clear\n
+~ the period for which this personal data will be stored (until about July 2025)\n
+~ the right to access, correct, or erase any personal data or to object to the processing of your data.\n
+Furthermore, find out more about your data protection rights at the provisions under the <a href="https://gdpr-info.eu/">General Data Protection Regulation (GDPR)</a>.\n\n
+<b>Consent Form</b>\n
+I am aware that the collection, processing and use of my data is voluntary.\n
+I have been informed that my following data are processed: my gender and age as well as my personal information regarding lifestyle as it pertains to traffic environments, such as crossing a road.\n
+My data will be needed to answer scientific research questions regarding traffic scenarios with highly automated vehicles. I am aware that my data is processed anonymously.\n
+I agree that my data will be collected, processed, used and stored by Universität Ulm for the following purposes:\n
+~ I agree that the results and primary data of this study may be published by the Universität Ulm as a scientific publication. The data is published completely anonymously, i.e. the collected data cannot be related to respective participants.\n
+~ The study described here is part of a scientific project of the Universität Ulm. The data is stored for an indefinite period of time. (until about July 2025)\n
+I have been informed that my personal data collected in the context of the above purposes will be processed in compliance with the General Data Protection Regulation (GDPR).\n
+Furthermore, I am aware that according to the General Data Protection Regulation (GDPR) Art. 7 point 3, I have the right to withdraw my consent at any time. Withdrawing my consent is made easy for me: by simply contacting the researcher in charge I can withdraw my consent to this study.\n\n
+Contact Person:\n
+<u>Luca-Maxim Meinhardt</u>\n
+<a href="mailto:luca.meinhardt@uni-ulm.de">luca.meinhardt@uni-ulm.de</a>\n
+Tel: +49(0)731 / 50-31323\n
+The survey can be canceled by me at any time without mentioning reasons and without causing me any disadvantages. In the event of cancellation, all data recorded of me will be irrevocably deleted</string>
+
+
+</resources>

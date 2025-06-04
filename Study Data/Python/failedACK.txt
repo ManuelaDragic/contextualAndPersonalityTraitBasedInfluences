@@ -1,0 +1,76 @@
+// Di 08.04.2025 15:30
+Deleted 20 entries where the Questionnaire Attention Check was False.
+Deleted 27 entries where the LimeSurvey Attention Check was not passed.
+Details of failed entries:
+                  Prolific_ID SelfControl[SCATC]
+0                        test                  2
+43   6776eb78a634b38d5b95e7ce                  2
+76   6722ea20fb84b196f0a649b6     1 (not at all)
+78   63655e649e50f6b5d7c98eef                  2
+88   674a74387f40f67a328a2cac                  3
+94   677b16c555e66b8ebeb5f41d                  3
+113  6744b7a697b6eff3de59a88e                  2
+119  678bbe931c775d9dbc210628     1 (not at all)
+128  6396044f6ae489bb820c67a5                  3
+154  66f5cf5263914b8852c81677     1 (not at all)
+166  66881a8fe396f4f33f070d64                  3
+227  676591ca13e3f269c4bd0ca0                  2
+279  67155947b83a6aee15acbc0d     1 (not at all)
+320  669284eabea5b8c9655927da                  3
+321  67ad1192dbe02c515e5a38ae                  2
+381  675ca23510c22f3834c2a59e     1 (not at all)
+392  67d1d9e205762736c05ee22d     1 (not at all)
+397  67ca4edd60c95683ceeba1f4                  3
+440  67dc70145c70ad07748b3f1b     1 (not at all)
+472  67d35a5bd63e14b7228cc50c                  3
+483  67ddc832e00822d502e93721                  2
+487  67d2e42e1cade7de3284b697     1 (not at all)
+503  66bd2f936ab3b23d4a8abbe3                  2
+516  659585d0d682df995ad2c5b5                  3
+535  67deef840a1f9d916b736287                  2
+543  67e8037aaeb01808f2c817e3                  2
+553  67e4a33426f6cc107b5bb7db     1 (not at all)
+
+App_Name cleared where it was 'InfiniteScape': 11
+
+
+
+
+Filtering data to retain only entries within 7 days...
+
+
+Excluded 395 data points beyond 7 days:
+                   Prolific_ID           Timestamp
+3     55a8c7affdf99b33d8aff983 2025-03-29 20:04:14
+4     55a8c7affdf99b33d8aff983 2025-04-07 19:41:12
+6     55a8c7affdf99b33d8aff983 2025-03-30 16:26:21
+13    55cff4a834e9060012e57407 2025-03-20 06:01:23
+18    55cff4a834e9060012e57407 2025-03-20 04:05:33
+...                        ...                 ...
+1315      Luca-Maxim Meinhardt 2025-04-05 03:10:40
+1318      Luca-Maxim Meinhardt 2025-04-05 03:29:28
+1320      Luca-Maxim Meinhardt 2025-04-06 16:24:52
+1321      Luca-Maxim Meinhardt 2025-04-08 02:12:47
+1322      Luca-Maxim Meinhardt 2025-04-06 15:54:43
+
+[395 rows x 2 columns]
+Filtered data has been saved to 'filtered_data.csv'.
+Valid entry counts per Prolific_ID (with payment) have been saved to 'validEntriesPerID.csv'.
+
+Filtering completed.
+
+Updated DataFrame saved to filtered_data.csv
+Deleted 12 entries for Prolific_IDs: 62da5ffdd666bd90db19b4e9. (Missing LimeSurvey Data)
+Updated DataFrame saved to filtered_data.csv
+Häufigkeiten der Interventionen:
+Intervention_Type
+Vibration      461
+SpotOverlay    459
+Pop-Up         419
+Name: count, dtype: int64
+
+Prozentuale Verteilung der Interventionen:
+Intervention_Type
+Vibration      34.43
+SpotOverlay    34.28
+Pop-Up         31.29

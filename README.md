@@ -1,0 +1,13 @@
+
+Context- and Personality Trait-Based Continuous Interventions for Infinite Scrolling
+- Bachelor Thesis in Media Informatics at Ulm University
+
+Presented by:
+Manuela Dragic
+manuela.dragic@uni-ulm.de
+
+Advisor:
+Luca-Maxim Meinhardt
+
+Abstract
+Infinite scrolling on social media platforms is designed to maximize user engagement but often leads to excessive screen time and negative emotional consequences. Although interventions have been proposed to reduce infinite scrolling, their effectiveness may vary depending on individual characteristics and contextual factors. This study investigates how contextual factors and personality traits influence the effectiveness of interventions aimed at reducing infinite scrolling behavior.  To examine these effects, a 7-day user study was conducted with 110 participants, who were exposed to three different interventions: a Pop-up, a SpotOverlay and a Vibration. A static Pop-up served as the baseline, appearing in the center of the screen as a dismissible message. In contrast, two dynamic interventions provided continuous feedback: The SpotOverlay intervention consisted of organically shaped black spots that gradually appeared and increased in number and size until the screen was fully covered. The vibration intervention used haptic feedback that started subtly and became progressively stronger and more frequent over time. All interventions were designed to be non-blocking, allowing participants to continue using their phones and decide for themselves when to stop scrolling. Results indicate that intervention effectiveness is significantly influenced by personality traits, particularly impulsivity and anxiety. Participants with high impulsivity responded less to the SpotOverlay intervention, whereas those with higher anxiety found it more effective. In contrast, contextual factors such as sleepiness, current activity, or being at home showed no significant impact. These findings suggest that personality traits play a more central role than situational factors, emphasizing the need for personalized, trait-based interventions to effectively reduce infinite scrolling.

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.uniulm.social_media_interventions.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+
+        <!-- todo Destroys app -->
+        <!--    <pl.droidsonroids.gif.GifImageView-->
+        <!--        android:id="@+id/gifAnim"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:src="@drawable/advtime"-->
+        <!--        ></pl.droidsonroids.gif.GifImageView>-->
+
+
+
+                <Button
+                    android:id="@+id/bb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="Close" />
+
+                <TextView
+                    android:id="@+id/longText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_policy"
+                    android:textSize="16sp"
+                    android:autoLink="all"
+                    android:textIsSelectable="true"/>
+
+                <Button
+                    android:id="@+id/bb2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="Close" />
+
+
+
+    </LinearLayout>
+</ScrollView>

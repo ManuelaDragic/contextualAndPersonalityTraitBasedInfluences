@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.uniulm.social_media_interventions.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+
+        <!-- todo Destroys app -->
+        <!--    <pl.droidsonroids.gif.GifImageView-->
+        <!--        android:id="@+id/gifAnim"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:src="@drawable/advtime"-->
+        <!--        ></pl.droidsonroids.gif.GifImageView>-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginBottom="15dp"
+                    android:text="The study is running ..."
+                    android:textSize="25dp" />
+
+                <TextView android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:text="What is this application doing?" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="This app will now run in the background and analyze your social media scrolling behavior. After a certain amount of time, one of three different interventions will occur. Once you finish scrolling, a questionnaire will be presented to gather insights about your current context." />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:text="What do I need to do now?"
+                     />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
+                    android:text="When overusing social media apps and doom scrolling, (YouTube, Instagram, Facebook and TikTok) our app will try to intervene you from doing so. After every incident you are asked to answer a short questionnaire.\n\nAs long the app is running, you can see the app's icon in the top bar of your phone. \nShould this notification disappear or you restart your smartphone, please also restart the app." />
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="deleteSharedPrefs"
+                    android:text=" " />
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You can close this application now. See you in the next questionnaire!"
+                    android:textSize="20sp"></TextView>
+
+            </LinearLayout>
+
+
+<!--
+        <CheckBox
+            android:id="@+id/quitcheckBox"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/quitButton"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="50dp"
+            android:onClick="changequitButton"
+            tools:ignore="OnClick" />
+       -->
+
+    </LinearLayout>
+</ScrollView>

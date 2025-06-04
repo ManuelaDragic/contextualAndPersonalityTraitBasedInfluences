@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652792538886",
+    "project_id": "social-media-interventions2",
+    "storage_bucket": "social-media-interventions2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652792538886:android:23bc1d63596edbd95ee087",
+        "android_client_info": {
+          "package_name": "com.uniulm.social_media_interventions"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb4e5Wtt9eZxgG1G7S2yXoNB9zgQ-fTes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

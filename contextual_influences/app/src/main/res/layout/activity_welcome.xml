@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".WelcomeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:fontFamily="sans-serif"
+            android:padding="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:layout_marginBottom="10dp"
+                android:text="Welcome and thank you for downloading this application!"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:text="First, please take a moment and read the following information about this application." />
+
+
+            <TextView android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="What is the purpose of this application?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:textSize="18dp"
+                android:text="This app is part of a study conducted by the University of Ulm in Germany. We're exploring how people use social media and how it affects them. Join us to discover how your time on social media impacts you! " />
+
+            <TextView android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="What do I need to do?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:textSize="18dp"
+                android:text="Once you complete an initial questionnaire, this app will discreetly run in the background. As you scroll through social media apps (YouTube, Instagram, Facebook and TikTok) for a specific time, one of three different interventions will be triggered. After stopping infinite scrolling, you will be prompted to complete a brief questionnaire about your current context and your feelings towards the intervention" />
+
+            <TextView android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Does this application see what I do within social media?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:layout_marginBottom="30dp"
+                android:text="Absolutely not! We do not record any activity within your social media applications. Aside from the data you provide through questionnaires, we only track when you open and close your social media apps and where you are in the app. This helps us compare participants' usage patterns and determine when to prompt you with a questionnaire after you stop scrolling. " />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Thank you for your interest in science and participation in this study."
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:id="@+id/tosview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/tos"/>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:textColor="#EE7120"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="I understand and agree." />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/welcomeButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorPrimary"
+            android:text="Got it"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>

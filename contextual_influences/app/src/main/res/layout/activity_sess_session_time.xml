@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="How long was your session?"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:id="@+id/llProgressDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:indeterminate="false"
+                        android:max="5"
+                        android:minHeight="50dp"
+                        android:progress="3" />
+
+                    <TextView
+                        android:id="@+id/tv_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="14sp"
+                        tools:text="3/5" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/linLayCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvHour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="hours"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tvMin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="minutes"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_gravity="center"
+                   android:orientation="horizontal">
+
+                   <NumberPicker
+                       android:id="@+id/numberPickerH"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="8dp"
+                       android:layout_marginEnd="8dp"
+                       android:layout_marginStart="8dp"
+                       android:layout_marginTop="8dp"
+                       app:layout_constraintEnd_toEndOf="parent"
+                       app:layout_constraintStart_toStartOf="parent"
+                       android:layout_gravity="center"
+                       app:layout_constraintTop_toBottomOf="@+id/textView"
+                       android:descendantFocusability="blocksDescendants" />
+
+
+
+                   <NumberPicker
+                       android:id="@+id/numberPickerM"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginBottom="8dp"
+                       android:layout_marginEnd="8dp"
+                       android:layout_marginStart="8dp"
+                       android:layout_marginTop="8dp"
+                       app:layout_constraintEnd_toEndOf="parent"
+                       app:layout_constraintStart_toStartOf="parent"
+                       android:layout_gravity="center"
+                       app:layout_constraintTop_toBottomOf="@+id/textView"
+                       android:descendantFocusability="blocksDescendants" />
+
+
+
+               </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingTop="30dp">
+
+                    <Button
+                        android:id="@+id/button_back"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:text="Back"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"/>
+
+                    <Button
+                        android:id="@+id/button_continue"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:layout_gravity="center"
+                        android:text="Next"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/back"
+    tools:context=".StuckSocialMediaActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/tvQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:text="@string/rshci5"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Please indicate how much you agree with the statement"
+                    android:gravity="center">
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/llProgressDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:indeterminate="false"
+                        android:max="5"
+                        android:minHeight="50dp"
+                        android:progress="5" />
+
+                    <TextView
+                        android:id="@+id/tv_progress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:textColorHint="@color/colorAccent"
+                        android:textSize="14sp"
+                        tools:text="5/5" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/linLayCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                >
+
+                <RadioGroup
+                    android:id="@+id/radGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RadioButton
+                        android:id="@+id/rad1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="strongly agree" />
+
+                    <RadioButton
+                        android:id="@+id/rad2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="agree"/>
+
+                    <RadioButton
+                        android:id="@+id/rad3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="neutral"/>
+
+                    <RadioButton
+                        android:id="@+id/rad4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="disagree"/>
+
+                    <RadioButton
+                        android:id="@+id/rad5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="strongly disagree" />
+
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingTop="30dp">
+
+                    <Button
+                        android:id="@+id/button_back"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/colorPrimary"
+                        android:text="Back"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"/>
+
+                    <Button
+                        android:id="@+id/button_continue"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:layout_gravity="center"
+                        android:text="Next"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

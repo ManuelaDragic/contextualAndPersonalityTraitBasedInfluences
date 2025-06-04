@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="20dp">
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="left"
+                android:color="@color/black"
+                android:text="Demographic Data:"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/prolificID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="left"
+                android:color="@color/black"
+                android:text="Please enter your ProlificID:"
+                android:textSize="20sp" />
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/prolificID_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"/>
+
+            <TextView
+                android:id="@+id/txtCode2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="left"
+                android:color="@color/black"
+                android:text="Please enter your age:"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/codeEdit2"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="40dp"
+                android:inputType="number"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtCode3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="left"
+                android:color="@color/black"
+                android:text="What gender do you identify with the most?"
+                android:layout_marginBottom="25dp"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_marginBottom="40dp"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:color="@color/black"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:color="@color/black"
+                    android:text="Female" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:color="@color/black"
+                    android:text="Non-Binary" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:color="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="Prefer not to answer" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@color/purple_500"
+                android:gravity="center"
+                android:text="Start" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
