@@ -1,10 +1,6 @@
 
-Context- and Personality Trait-Based Continuous Interventions for Infinite Scrolling
-- Bachelor Thesis in Media Informatics at Ulm University
-
-Presented by:
-Manuela Dragic
-manuela.dragic@uni-ulm.de
+## Context- and Personality Trait-Based Continuous Interventions for Infinite Scrolling
+# Bachelor Thesis in Media Informatics at Ulm University
 
 Advisor:
 Luca-Maxim Meinhardt
